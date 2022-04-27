@@ -1,0 +1,16 @@
+SERVER
+- Criar identificador para cada sala e associar esse identificador com o IP e Porta da sala
+- (REMOVIDO) Retornar para cliente quais as salas disponíveis e qual o limite de cada sala
+- (REMOVIDO) Ler dados enviados pelo cliente (identificador da sala que ele deseja conectar) e retornar IP e Porta da respectiva sala
+
+CLIENTE
+- (REMOVIDO) Modificar o IP e Porta nos args para que ele conecte não com a sala diretamente, mas com o server
+- (REMOVIDO) Permitir comando para listar as salas disponíveis
+- (REMOVIDO) Permitir comando para entrar em sala disponível (Server irá retornar IP e Porta para fazer o socket na sala)
+- Permitir comando para entrar em sala indicando IP e Porta da mesma
+- Mensagem para identificador de sala errada
+- Permitir listar quais outros clientes conectados na sala
+- Permitir que cliente saía da sala
+
+SALA
+- Listar todos os clientes conectados na sala
